@@ -1,0 +1,32 @@
+{
+  "name": "testiphony-backend",
+  "version": "1.0.0",
+  "description": "Backend for the testiphony",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rish-0-0/testiphony-backend.git"
+  },
+  "keywords": [
+    "Testiphony",
+    "backend",
+    "for",
+    "testiphony",
+    "app"
+  ],
+  "author": "Rishabh Anand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rish-0-0/testiphony-backend/issues"
+  },
+  "homepage": "https://github.com/rish-0-0/testiphony-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.9"
+  }
+}
