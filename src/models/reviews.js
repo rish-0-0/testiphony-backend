@@ -5,7 +5,7 @@ module.exports = model(
   new Schema(
     {
       title: { type: String, required: true },
-      category_name: { type: String, required: true },
+      category_name: { type: String, required: true, unique: true },
       category_id: { type: Schema.Types.ObjectId, required: true },
       pros: {
         type: [String],
